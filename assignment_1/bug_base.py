@@ -74,8 +74,7 @@ while DistancePointToPoint(r[k], goal) > step:
     # if obstacle deteced
     if computeDistancePointToPolygon([newx, newy], Ob)[0] < step:
         print("Failure: There is an obstacle lying between the start and goal")
-        out.write(
-            "\nFailure: There is an obstacle lying between the start and goal")
+        out.write("\nFailure: There is an obstacle lying between the start and goal")
         break
     else:
         # r.append([newx, newy])

@@ -1,6 +1,5 @@
 from math import atan2, pi, cos, sin
 
-
 def computeLineThroughTwoPoints(p1, p2):
     x1 = p1[0]
     x2 = p2[0]
